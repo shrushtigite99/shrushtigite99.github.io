@@ -1,0 +1,27 @@
+oneline {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-title.oneline {
+}
+
+.btn-primary {
+  color: #f8f3f8;
+  background-color: #f4237b;
+  border-color: #f4237b;
+}
+
+.btn-primary:hover {
+  color: #faf3f6;
+  background-color: #d5126e;
+  border-color: #f4237b;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #f4237b;
+  border-color: #f4237b;
+}
+
